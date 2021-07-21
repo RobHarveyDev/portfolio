@@ -5,5 +5,13 @@ return [
     'baseUrl' => '',
     'title' => 'Robert Harvey',
     'description' => 'Portfolio website for Robert Harvey',
-    'collections' => [],
+    'collections' => [
+        'projects' => [
+            'path' => 'projects',
+            'sort' => 'date',
+            'getTags' => function ($page) {
+                return explode(', ', $page->tags);
+            }
+        ]
+    ],
 ];

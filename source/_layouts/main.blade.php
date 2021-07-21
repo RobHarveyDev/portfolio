@@ -12,7 +12,7 @@
 <body class="flex flex-col min-h-screen text-gray-900 font-sans antialiased">
     @include('_partials.header')
 
-    <main class="flex-grow">
+    <main class="flex-grow mb-16">
         @yield('body')
     </main>
 

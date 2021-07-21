@@ -2,9 +2,8 @@
     <div class="flex flex-row space-x-5 items-center">
         <a href="#" class="uppercase text-black font-black text-2xl hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-br hover:from-blue-400 hover:to-green-600">Robert Harvey</a>
         <nav class="space-x-2">
-            <a href="#home" class="hover:border-b-2 hover:border-black">Home</a>
-            <a href="#portfolio" class="hover:border-b-2 hover:border-black">Portfolio</a>
-            <a href="#contact" class="hover:border-b-2 hover:border-black">Contact</a>
+            <a href="#about" class="hover:border-b-2 hover:border-black">About</a>
+            <a href="#projects" class="hover:border-b-2 hover:border-black">Projects</a>
         </nav>
     </div>
     <div>
